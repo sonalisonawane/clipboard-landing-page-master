@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --bold-text: hsl(210, 10%, 33%);
+    --light-text: hsl(201, 11%, 66%);
+    --blue: hsl(233, 100%, 69%);
+    --cyan: hsl(171, 66%, 44%);
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 710px;
+    margin: auto;
+}
+
+img.logo {
+    padding: 27px;
+    margin-top: 57px;
+}
+
+h1.heading {
+    margin-bottom: 10px;
+    color: var(--bold-text);
+}
+
+p.subtext-head {
+    color: var(--light-text);
+    margin-bottom: 46px;
+}
+
+button {
+    height: 46px;
+    border: none;
+    border-radius: 32px;
+    width: 192px;
+    margin: 10px;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+}
+
+button.first {
+    background-color: var(--cyan);
+}
+
+button.second {
+    background-color: var(--blue);
+}
+
+h2.mid-text-bold {
+    color: var(--bold-text);
+    margin-top: 35px;
+}
+
+p.mid-text-light {
+    color: var(--light-text);
+    margin-top: 17px;
+    margin-bottom: 75px;
+    /* padding: 0px 238px 0px 238px; */
+}
+
+
+/* section 1 styling */
+
+.section1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.tv-info {
+    margin: 67px 40px 0px 45px;
+    text-align: left;
+}
+
+h3.sm-text-bold {
+    color: var(--bold-text);
+    margin-bottom: 10px;
+}
+
+p.sm-text-light {
+    color: var(--light-text);
+    margin-bottom: 56px;
+}
+
+
+/* end section 1 */
+
+
+/* section 2 styling */
+
+.section2 {
+    /* height: 100vh; */
+    padding: 0px 268px 0px 268px;
+}
+
+img.mobdevices {
+    width: 800px;
+    margin-top: 40px;
+}
+
+
+/* ends section-2 */
+
+
+/* section-3 styling */
+
+.tools {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    margin: 40px 40px 80px 40px;
+}
+
+span.company {
+    padding: 23px;
+}
+
+.sponsers {
+    margin-bottom: 92px;
+}
+
+
+/* end section3 */
+
+
+/* footer styling */
+
+.footer-info {
+    height: 126px;
+    margin-top: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--bold-text);
+    background-color: hsl(201deg 16% 93%);
+}
+
+img.small-logo {
+    height: 55px;
+}
+
+a.foo-link {
+    text-decoration: none;
+}
+
+p.footer-links {
+    width: 434px;
+}
+
+a.foo-link {
+    text-decoration: none;
+    margin: 30px;
+    color: var(--bold-text);
+    font-size: 18px;
+}
+
+
+/* footer styling ends */
